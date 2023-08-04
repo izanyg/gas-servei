@@ -1,0 +1,45 @@
+.banner-logistic{
+    @include gradient-background();
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    h2{
+        font-size: 16px;
+        line-height: 1.2em;
+        color: rgba(255, 255, 255, 0.84);
+    }
+    p{
+        color: #FFF;
+        font-size: 14px;
+        line-height: 1.2em;
+        margin-bottom: 40px;
+    }
+    .wp-block-columns{
+        align-items: center;
+    }
+    img{
+        max-width: 274px;
+    }
+}
+@media screen and (min-width: 900px){
+    .banner-logistic{
+        text-align: left;
+        h2{
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 16px;
+            margin-bottom: 0px;
+        }  
+        img{
+            max-width: 286px;
+        }
+    }
+}
+@media screen and (min-width: 1024px){
+    .banner-logistic{
+        padding: 50px 100px;
+    }
+}

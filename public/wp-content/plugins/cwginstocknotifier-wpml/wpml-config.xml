@@ -1,0 +1,42 @@
+<wpml-config>
+    <admin-texts>
+        <key name="cwginstocksettings">
+            <key name = "form_title"/>
+            <key name = "name_placeholder"/>
+            <key name = "empty_name_message"/> 
+            <key name = "form_placeholder"/>
+            <key name = "button_label"/>
+            <key name = "empty_error_message"/>
+            <key name = "success_sub_message"/>
+            <key name = "already_subscribed"/>
+            <key name = "invalid_email_error"/>
+            <key name = "success_sub_subject"/>
+            <key name = "instock_mail_subject"/>
+            <key name = "instock_mail_message"/>
+            <key name = "success_subscription"/>
+            <key name = "invalid_phone_error"/>
+            <key name = "phone_number_too_short"/>
+            <key name = "phone_number_too_long"/>
+        </key>
+        <key name="cwginstock_iagree_settings">
+            <key name="iagree_text"/>
+            <key name="iagree_error"/>
+        </key>
+        <key name="cwginstock-unsub-settings">
+            <key name="success_message"/>
+            <key name="already_unsubscribed"/>
+            <key name="forbidden"/>
+            <key name="error_message"/>
+        </key>
+        <key name="cwginstock-doubleoptin-settings">
+            <key name="subject"/>
+            <key name="message"/>
+            <key name="confirmation_message"/>
+            <key name="pending_confirmation"/>
+        </key>
+        <key name="cwginstock-unsub-menu-name"></key>
+        <key name="cwginstock-unsub-page-heading"></key>
+        <key name="cwginstock-unsub-anchor-text"></key>
+        
+    </admin-texts>
+</wpml-config>

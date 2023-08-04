@@ -1,0 +1,9 @@
+.woocommerce .woocommerce-breadcrumb {
+    width: 100%;
+    font-weight: 400;
+    font-size: 13px;
+    color: $secondary-color;
+    a, .breadcrump_sep{
+        color: $primary-color;
+    }
+}

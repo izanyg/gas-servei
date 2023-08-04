@@ -1,0 +1,18 @@
+.widget:first-child ul.wc-block-grid__products {
+    display: flex;
+}
+
+.wpb_widgetised_column .widget {
+    border: none;
+}
+
+.shop_sidebar h3 {
+    font-size: 16px;
+}
+
+.wp-block-woocommerce-product-search .wc-block-product-search__fields {
+    padding-top: 0px;
+    button {
+        top: 8px;
+    }
+}

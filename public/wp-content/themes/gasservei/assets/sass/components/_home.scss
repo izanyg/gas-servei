@@ -1,0 +1,30 @@
+h1.page-title {
+    max-width: 105rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2em;
+}
+.home .wc-block-product-search__fields{
+    cursor: pointer;
+    *{
+        pointer-events: none;
+    }
+}
+.categories_grid .category_item .category_name {
+    display: inline-block;
+}
+
+.categories_grid .category_item:hover .category_name {
+    background-color: $secondary-color;
+}
+
+@media screen and (min-width: 48.0625em) {
+    .categories_grid {
+        .category_two_cat_1,
+        .category_two_cat_2 {
+            .category_item {
+                height: 25rem;
+            }
+        }
+    }
+}

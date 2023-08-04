@@ -1,0 +1,21 @@
+.term-description {
+    margin-top: -50px;
+}
+.shop_header.with_featured_img {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: -85px;
+    margin-bottom: 40px;
+    .shop_header_bkg {
+        background-position: center center;
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: #000a;
+        }
+    }
+}

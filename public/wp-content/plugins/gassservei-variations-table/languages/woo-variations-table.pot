@@ -1,0 +1,152 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-20 03:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: woo-variations-table.php:37 woo-variations-table.php:44 
+#: woo-variations-table.php:44
+msgid "Woo Variations Table"
+msgstr ""
+
+#: woo-variations-table.php:37
+#, php-format
+msgid "requires %sWooCommerce%s to be installed & activated!"
+msgstr ""
+
+#: woo-variations-table.php:75
+msgid "Thumbnail"
+msgstr ""
+
+#: woo-variations-table.php:76
+msgid "SKU"
+msgstr ""
+
+#: woo-variations-table.php:77
+msgid "Description"
+msgstr ""
+
+#: woo-variations-table.php:78
+msgid "Dimensions"
+msgstr ""
+
+#: woo-variations-table.php:79
+msgid "Weight"
+msgstr ""
+
+#: woo-variations-table.php:80
+msgid "Attributes"
+msgstr ""
+
+#: woo-variations-table.php:81
+msgid "Stock"
+msgstr ""
+
+#: woo-variations-table.php:82
+msgid "Price"
+msgstr ""
+
+#: woo-variations-table.php:83
+msgid "Quantity"
+msgstr ""
+
+#: woo-variations-table.php:98
+msgid "Woo Variations Table Settings"
+msgstr ""
+
+#: woo-variations-table.php:104
+msgid "Where to Place Variations Table"
+msgstr ""
+
+#: woo-variations-table.php:115
+msgid "Select Columns to Show in the Variations Table"
+msgstr ""
+
+#: woo-variations-table.php:119
+msgid "Show Filters"
+msgstr ""
+
+#: woo-variations-table.php:121
+msgid "Show filters and search box"
+msgstr ""
+
+#: woo-variations-table.php:125
+msgid "Available Options Button"
+msgstr ""
+
+#: woo-variations-table.php:127
+msgid ""
+"Show \"Available Options\" button to scroll to the variations table when "
+"clicked"
+msgstr ""
+
+#: woo-variations-table.php:131
+msgid "Add to Cart Loader Icon"
+msgstr ""
+
+#: woo-variations-table.php:133
+msgid ""
+"Show animated loader icon when click add to cart and tick icon when "
+"variation added to cart"
+msgstr ""
+
+#: woo-variations-table.php:185
+msgid "Move up"
+msgstr ""
+
+#: woo-variations-table.php:186
+msgid "Move down"
+msgstr ""
+
+#: woo-variations-table.php:275
+msgid "Available options"
+msgstr ""
+
+#: woo-variations-table.php:344
+msgid "Add to Cart"
+msgstr ""
+
+#: woo-variations-table.php:345
+msgid "Any"
+msgstr ""
+
+#: woo-variations-table.php:346
+msgid "Keywords"
+msgstr ""
+
+#: woo-variations-table.php:347
+msgid "No results!"
+msgstr ""
+
+#: woo-variations-table.php:353
+msgid "Available Options:"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Show WooCommerce variable products variations as table with filters and "
+"sorting instead of the default dropdowns."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/woo-variations-table/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Alaa Rihan"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://lb.linkedin.com/in/alaa-rihan-6971b686"
+msgstr ""

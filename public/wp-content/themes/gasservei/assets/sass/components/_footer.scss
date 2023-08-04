@@ -1,0 +1,100 @@
+.trigger-footer-widget-area {
+    margin-bottom: 0px;
+    margin-top: -40px;
+}
+footer#site-footer {
+    padding-bottom: 0px;
+    position: relative;
+    padding: 40px 0px 0px;
+    .site-footer-copyright-area{
+        display: none;
+    }
+    .site-footer-widget-area{
+        margin-bottom: 0px;
+    }
+    img {
+        width: 100%;
+        max-width: 200px !important;
+        margin-bottom: 20px;
+    }
+    // &:after{
+    //     content: "";
+    //     position: absolute;
+    //     z-index: 1;
+    //     left: 0;
+    //     right: 0;
+    //     height: 300px;
+    //     bottom: 0;
+    //     background-image: url('../../img/footer-waves.svg');
+    //     background-size: cover;
+    //     background-position: bottom center;
+    //     background-repeat: repeat no-repeat;
+    // }
+}
+footer#site-footer{
+    font-weight: normal;
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .footer-left{
+            
+        }
+        .footer-right{
+            
+        }
+    }
+    h3{
+        color: #FFF;
+    }
+    li, p, a{
+        color: inherit;
+        font-weight: inherit;
+    }
+    .site-footer-widget-area > .row{
+        border: none;
+    }
+    h6 {
+        font-size: 1.2em;
+        color: #FFF;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+@media screen and (min-width: 1024px){
+    footer#site-footer{
+        // padding-bottom: 200px;
+        
+        // &:after{
+        //     background-size: contain;
+        // }
+        .footer-container{
+            padding-left: 150px;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            text-align: left;
+            .footer-left{
+                width: 33%;
+            }
+            .footer-right{
+                width: 66%;
+            }
+        }
+        &:before{
+            content: "";
+            position: absolute;
+            z-index: 1;
+            left: 20px;
+            height: 250px;
+            width: 85px;
+            bottom: 10px;
+            background-image: url('../../img/worker.svg');
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            z-index: 3;
+        }
+    }
+}

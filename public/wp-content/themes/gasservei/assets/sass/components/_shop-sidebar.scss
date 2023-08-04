@@ -1,0 +1,98 @@
+#gss_sidebar_categories{
+    font-size: 12px;
+    list-style: none;
+    margin-left: 0px;
+    font-weight: bold;
+    a{
+        font-weight: bold;
+        color: $primary-color;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 1.5em;
+        position: relative;
+        display: block;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+    li.current-item,
+    li.current-parent{
+        >.link-container{
+            a{
+                color: $secondary-color;
+                position: relative;
+                &:after {
+                    position: absolute;
+                    content: "";
+                    background-image: url('../../img/fill-19.svg');
+                    bottom: -5px;
+                    left: -10px;
+                    width: 20px;
+                    height: 9px;
+                }
+            }
+            .arrow{                
+                path{
+                    fill: $secondary-color;
+                }
+            }
+        }
+    }
+    ul{
+        list-style: none;
+        padding-left: 0px;
+        display: none;
+        margin-left: 1em;
+    }
+    li.active{
+        > ul{
+            display: block;
+        }
+    }
+    li{
+        .link-container{
+            padding-right: 30px;
+            position: relative;
+            margin-bottom: 10px;
+            .arrow-container{
+                position: absolute;
+                top: 50%;
+                right: 0px;
+                transform: translateY(-50%);
+                transition: all 0.3s ease-in-out;
+                padding: 5px;
+                .arrow{
+                    cursor: pointer;
+                }
+            }
+        }
+        &.active{
+            >.link-container{
+                .arrow{
+                    transform:  rotate(180deg);
+                }  
+            } 
+        }
+    }
+}
+.wpb_widgetised_column{ 
+    .widget.widget_layered_nav{
+        padding-bottom: 38px;
+        padding: 20px 0px;
+        border-top: 1px solid #C0C0C0 !important;
+        h3 {
+            font-size: 16px;
+            margin: 0px;
+            color: #3E3E3E;
+        }
+        > ul > li {
+            margin: 0px;
+            span.count {
+                padding: 2px 6px !important;
+            }
+            a:before {
+                border-radius: 100%;
+            }
+        }
+    } 
+}

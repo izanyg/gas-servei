@@ -1,0 +1,28 @@
+// Block styles are in the plugin. Here only custom GSS styles
+.wp-block-mimotic-categories-block {
+  display: block;
+  max-width: 1024px;
+  margin: 0px auto;
+  h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.2em;
+    position: relative;
+    color: rgb(var(--heading-color));
+  }
+}
+.wp-block-mimotic-categories-container {
+  display: block;
+  max-width: 1234px;
+  margin: 0px auto 40px;
+  .category {
+    .title{
+    }
+    .image {
+      &:after {
+        @include gradient-background(#066a8b, #120050, 100%);
+      }
+    }
+  }
+}

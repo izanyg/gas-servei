@@ -1,0 +1,458 @@
+[
+    {
+        "$id": "1",
+        "id": 4,
+        "producto_id": 302,
+        "fileimg": "galerias/r442a-1png.png"
+    },
+    {
+        "$id": "2",
+        "id": 7,
+        "producto_id": 348,
+        "fileimg": "galerias/r134apng.png"
+    },
+    {
+        "$id": "3",
+        "id": 8,
+        "producto_id": 348,
+        "fileimg": "galerias/r442a-1png.png"
+    },
+    {
+        "$id": "4",
+        "id": 9,
+        "producto_id": 346,
+        "fileimg": "galerias/sello-rs-70-gas-servei-sapng.png"
+    },
+    {
+        "$id": "5",
+        "id": 10,
+        "producto_id": 346,
+        "fileimg": "galerias/rs-70-gas-servei-sapng.png"
+    },
+    {
+        "$id": "6",
+        "id": 11,
+        "producto_id": 625,
+        "fileimg": "galerias/r-23png.png"
+    },
+    {
+        "$id": "7",
+        "id": 20,
+        "producto_id": 294,
+        "fileimg": "galerias/r-434apng.png"
+    },
+    {
+        "$id": "8",
+        "id": 21,
+        "producto_id": 294,
+        "fileimg": "galerias/rs-45-gas-servei-sapng.png"
+    },
+    {
+        "$id": "9",
+        "id": 22,
+        "producto_id": 296,
+        "fileimg": "galerias/r-442apng.png"
+    },
+    {
+        "$id": "10",
+        "id": 24,
+        "producto_id": 296,
+        "fileimg": "galerias/rs-50-gas-servei-sapng.png"
+    },
+    {
+        "$id": "11",
+        "id": 25,
+        "producto_id": 604,
+        "fileimg": "galerias/r-417apng.png"
+    },
+    {
+        "$id": "12",
+        "id": 26,
+        "producto_id": 604,
+        "fileimg": "galerias/r-417-gas-servei-sapng.png"
+    },
+    {
+        "$id": "13",
+        "id": 27,
+        "producto_id": 606,
+        "fileimg": "galerias/r-422dpng.png"
+    },
+    {
+        "$id": "14",
+        "id": 28,
+        "producto_id": 606,
+        "fileimg": "galerias/r-422d-gas-servei-sapng.png"
+    },
+    {
+        "$id": "15",
+        "id": 29,
+        "producto_id": 344,
+        "fileimg": "galerias/r-407hpng.png"
+    },
+    {
+        "$id": "16",
+        "id": 30,
+        "producto_id": 344,
+        "fileimg": "galerias/r-407h-gas-servei-sapng.png"
+    },
+    {
+        "$id": "17",
+        "id": 31,
+        "producto_id": 300,
+        "fileimg": "galerias/r-134a-png.png"
+    },
+    {
+        "$id": "18",
+        "id": 32,
+        "producto_id": 300,
+        "fileimg": "galerias/r-134a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "19",
+        "id": 33,
+        "producto_id": 298,
+        "fileimg": "galerias/r-407c-png.png"
+    },
+    {
+        "$id": "20",
+        "id": 34,
+        "producto_id": 298,
+        "fileimg": "galerias/r-407c-gas-servei-sapng.png"
+    },
+    {
+        "$id": "21",
+        "id": 35,
+        "producto_id": 295,
+        "fileimg": "galerias/r-410a-png.png"
+    },
+    {
+        "$id": "22",
+        "id": 36,
+        "producto_id": 295,
+        "fileimg": "galerias/r-410a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "23",
+        "id": 37,
+        "producto_id": 630,
+        "fileimg": "galerias/r-404a-png.png"
+    },
+    {
+        "$id": "24",
+        "id": 38,
+        "producto_id": 630,
+        "fileimg": "galerias/r-404a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "25",
+        "id": 39,
+        "producto_id": 291,
+        "fileimg": "galerias/r-507a-png.png"
+    },
+    {
+        "$id": "26",
+        "id": 40,
+        "producto_id": 291,
+        "fileimg": "galerias/r-507a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "27",
+        "id": 41,
+        "producto_id": 299,
+        "fileimg": "galerias/r-426apng.png"
+    },
+    {
+        "$id": "28",
+        "id": 42,
+        "producto_id": 299,
+        "fileimg": "galerias/rs-24-gas-servei-sapng.png"
+    },
+    {
+        "$id": "29",
+        "id": 43,
+        "producto_id": 293,
+        "fileimg": "galerias/r-428apng.png"
+    },
+    {
+        "$id": "30",
+        "id": 44,
+        "producto_id": 293,
+        "fileimg": "galerias/rs-52-gas-servei-sapng.png"
+    },
+    {
+        "$id": "31",
+        "id": 45,
+        "producto_id": 340,
+        "fileimg": "galerias/r-152apng.png"
+    },
+    {
+        "$id": "32",
+        "id": 46,
+        "producto_id": 340,
+        "fileimg": "galerias/r-152a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "33",
+        "id": 47,
+        "producto_id": 608,
+        "fileimg": "galerias/rs-51png.png"
+    },
+    {
+        "$id": "34",
+        "id": 48,
+        "producto_id": 608,
+        "fileimg": "galerias/rs-51-gas-servei-sapng.png"
+    },
+    {
+        "$id": "35",
+        "id": 49,
+        "producto_id": 614,
+        "fileimg": "galerias/rs-53png.png"
+    },
+    {
+        "$id": "36",
+        "id": 50,
+        "producto_id": 614,
+        "fileimg": "galerias/rs-53-gas-servei-sapng.png"
+    },
+    {
+        "$id": "37",
+        "id": 51,
+        "producto_id": 350,
+        "fileimg": "galerias/r-1234yfpng.png"
+    },
+    {
+        "$id": "38",
+        "id": 52,
+        "producto_id": 350,
+        "fileimg": "galerias/r-1234yf-gas-servei-sapng.png"
+    },
+    {
+        "$id": "39",
+        "id": 53,
+        "producto_id": 351,
+        "fileimg": "galerias/r-1234zepng.png"
+    },
+    {
+        "$id": "40",
+        "id": 54,
+        "producto_id": 351,
+        "fileimg": "galerias/r-1234ze-gas-servei-sapng.png"
+    },
+    {
+        "$id": "41",
+        "id": 56,
+        "producto_id": 611,
+        "fileimg": "galerias/r-450a-png.png"
+    },
+    {
+        "$id": "42",
+        "id": 57,
+        "producto_id": 611,
+        "fileimg": "galerias/r-450a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "43",
+        "id": 58,
+        "producto_id": 347,
+        "fileimg": "galerias/r-448a-png.png"
+    },
+    {
+        "$id": "44",
+        "id": 59,
+        "producto_id": 347,
+        "fileimg": "galerias/r-448a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "45",
+        "id": 60,
+        "producto_id": 610,
+        "fileimg": "galerias/r-449a-png.png"
+    },
+    {
+        "$id": "46",
+        "id": 61,
+        "producto_id": 610,
+        "fileimg": "galerias/r-449a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "47",
+        "id": 62,
+        "producto_id": 349,
+        "fileimg": "galerias/r-452a-png.png"
+    },
+    {
+        "$id": "48",
+        "id": 63,
+        "producto_id": 349,
+        "fileimg": "galerias/r-452a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "49",
+        "id": 65,
+        "producto_id": 615,
+        "fileimg": "galerias/r-513a-png.png"
+    },
+    {
+        "$id": "50",
+        "id": 66,
+        "producto_id": 615,
+        "fileimg": "galerias/r-513a-gas-servei-sapng.png"
+    },
+    {
+        "$id": "51",
+        "id": 67,
+        "producto_id": 341,
+        "fileimg": "galerias/foto-x-lite-gas-serveipng.png"
+    },
+    {
+        "$id": "52",
+        "id": 68,
+        "producto_id": 641,
+        "fileimg": "galerias/zitrecjpg.jpeg"
+    },
+    {
+        "$id": "53",
+        "id": 74,
+        "producto_id": 298,
+        "fileimg": "galerias/gases-definitivos-web-20-gs-4png.png"
+    },
+    {
+        "$id": "54",
+        "id": 76,
+        "producto_id": 294,
+        "fileimg": "galerias/rs-45-montajepng.png"
+    },
+    {
+        "$id": "55",
+        "id": 77,
+        "producto_id": 295,
+        "fileimg": "galerias/r-410a-montajepng.png"
+    },
+    {
+        "$id": "56",
+        "id": 78,
+        "producto_id": 291,
+        "fileimg": "galerias/r-507-montajepng.png"
+    },
+    {
+        "$id": "57",
+        "id": 79,
+        "producto_id": 630,
+        "fileimg": "galerias/r-404a-montajepng.png"
+    },
+    {
+        "$id": "58",
+        "id": 80,
+        "producto_id": 300,
+        "fileimg": "galerias/r-134a-montajepng.png"
+    },
+    {
+        "$id": "59",
+        "id": 82,
+        "producto_id": 296,
+        "fileimg": "galerias/rs-50-montajepng.png"
+    },
+    {
+        "$id": "60",
+        "id": 83,
+        "producto_id": 346,
+        "fileimg": "galerias/montaje-rs-70-webpng.png"
+    },
+    {
+        "$id": "61",
+        "id": 84,
+        "producto_id": 625,
+        "fileimg": "galerias/composicion-r-23png.png"
+    },
+    {
+        "$id": "62",
+        "id": 87,
+        "producto_id": 129,
+        "fileimg": "galerias/min-02-copyjpg.jpeg"
+    },
+    {
+        "$id": "63",
+        "id": 88,
+        "producto_id": 133,
+        "fileimg": "galerias/vfr-808-in-mesa-de-trabajo-1png.png"
+    },
+    {
+        "$id": "64",
+        "id": 89,
+        "producto_id": 133,
+        "fileimg": "galerias/vfr-808-i-mesa-de-trabajo-1png.png"
+    },
+    {
+        "$id": "65",
+        "id": 93,
+        "producto_id": 133,
+        "fileimg": "galerias/vfr-808-is-mesa-de-trabajo-1png.png"
+    },
+    {
+        "$id": "66",
+        "id": 94,
+        "producto_id": 133,
+        "fileimg": "galerias/vfr-808-ie-mesa-de-trabajo-1-mesa-de-trabajo-1png.png"
+    },
+    {
+        "$id": "67",
+        "id": 95,
+        "producto_id": 133,
+        "fileimg": "galerias/fotos-abocardadores-seriepng.png"
+    },
+    {
+        "$id": "68",
+        "id": 96,
+        "producto_id": 318,
+        "fileimg": "galerias/maletin-puente-de-manometros-vdg-1-mesa-de-trabajo-1png.png"
+    },
+    {
+        "$id": "69",
+        "id": 98,
+        "producto_id": 590,
+        "fileimg": "galerias/oxy-369a-mesa-de-trabajo-1png.png"
+    },
+    {
+        "$id": "70",
+        "id": 100,
+        "producto_id": 590,
+        "fileimg": "galerias/vtb-1-2-mesa-de-trabajo-1png.png"
+    },
+    {
+        "$id": "71",
+        "id": 101,
+        "producto_id": 590,
+        "fileimg": "galerias/vtb-3-4-5-mesa-de-trabajo-1png.png"
+    },
+    {
+        "$id": "72",
+        "id": 102,
+        "producto_id": 586,
+        "fileimg": "galerias/cuchillas-para-cortatubos-valuepng.png"
+    },
+    {
+        "$id": "73",
+        "id": 103,
+        "producto_id": 586,
+        "fileimg": "galerias/cuchillas-para-cortatubos-value-2png.png"
+    },
+    {
+        "$id": "74",
+        "id": 104,
+        "producto_id": 586,
+        "fileimg": "galerias/cuchillas-para-cortatubos-value-3png.png"
+    },
+    {
+        "$id": "75",
+        "id": 107,
+        "producto_id": 637,
+        "fileimg": "galerias/captura-de-pantalla-2020-12-14-a-las-143322png.png"
+    },
+    {
+        "$id": "76",
+        "id": 109,
+        "producto_id": 749,
+        "fileimg": "galerias/jeringuillas-extreme-normal-errecomjpg.jpeg"
+    }
+]

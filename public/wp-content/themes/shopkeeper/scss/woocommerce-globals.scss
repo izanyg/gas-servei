@@ -1,0 +1,164 @@
+// global shop table styles
+.woocommerce table.shop_table {
+    background-color: transparent !important;
+    border-collapse: collapse;
+    border: none;
+	margin: 12px 0 0;
+	border-radius: 0;
+
+    th, td {
+        background-color: transparent !important;
+    }
+
+    th {
+    	line-height: 1.8em;
+    	padding: 17px 0;
+    	font-size: 13px;
+    }
+
+    td.product-name,
+    td.product-subtotal {
+        font-weight: bold;
+    }
+
+    td.product-name {
+        @media #{$xmedium-down} {
+            font-size: .85rem;
+        }
+    }
+
+    td.product-total {
+    	.woocommerce-Price-amount.amount  {
+    		font-weight: bold;
+    		font-size: 13px;
+    	}
+    }
+
+    tbody,
+    thead {
+        td, th {
+            padding: 15px;
+
+            &:first-child {
+                padding: 15px 15px 15px 0;
+            }
+
+            &:last-child {
+                padding: 15px 0 15px 15px;
+            }
+        }
+    }
+
+    tbody {
+        td {
+            vertical-align: middle;
+
+            a {
+                font-weight: bold;
+            }
+
+            &:before {
+                font-size: 13px;
+                line-height: 2;
+                text-transform: uppercase;
+            }
+
+            .wc-item-meta {
+                margin-left: 0;
+
+                strong, p {
+                    font-weight: normal;
+                    font-size: 13px;
+                    line-height: 1;
+                }
+
+                .wc-item-meta-label {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+	tfoot {
+		tr {
+			&:first-child {
+				td, th {
+					padding-top: 30px;
+					border-top: 3px solid;
+				}
+			}
+            &:last-child {
+                td {
+                    strong .woocommerce-Price-amount.amount {
+                        font-size: 1.875rem;
+                    }
+                }
+            }
+			th, td {
+				border: 0;
+				font-size: 13px;
+				line-height: 1.5;
+			}
+
+			th {
+				padding: 10px 15px 10px 0;
+				text-transform: uppercase;
+			}
+
+			td {
+				padding: 10px 0 10px 15px;
+			}
+		}
+    }
+
+	.woocommerce-remove-coupon {
+		font-size: 0;
+		width: auto;
+		height: auto;
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 10px;
+
+		&:after {
+			content: "\e918";
+			font-family: 'Shopkeeper-Icon-Font';
+			font-size: 16px;
+			font-weight: normal;
+			display: inline-block;
+			vertical-align: middle;
+		}
+    }
+}
+
+.woocommerce-terms-and-conditions {
+    margin: 25px 0 15px;
+
+    h1,h2,h3,h4,h5,h6,
+    span, p,
+    a,
+    li,
+    address,
+    tr,td,th,
+    dt,dd,dl,
+    code,
+    pre,
+    img,
+    blockquote,
+    div 	{
+        font-size: 13px !important;
+    }
+}
+
+.woocommerce-privacy-policy-text p,
+.woocommerce-terms-and-conditions-checkbox-text {
+    font-size: 12px;
+    line-height: 1.4285em;
+    margin: -2px 0 13px;
+    font-weight: normal;
+}
+
+.validate-required {
+    .input-checkbox {
+        display: inline-block !important;
+    }
+}

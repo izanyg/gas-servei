@@ -1,0 +1,35 @@
+<?php
+/**
+ * Customizer config
+ *
+ * @package shopkeeper
+ */
+
+/**
+ * Go To Page
+ */
+function shopkeeper_get_customize_section_url() {
+	switch($_POST['page']) {
+		case 'shop':
+			echo get_permalink( wc_get_page_id( 'shop' ) );
+			break;
+		case 'blog':
+			echo get_permalink( get_option( 'page_for_posts' ) );
+			break;
+		case 'product':
+			$args = array('orderby' => 'rand', 'limit' => 1);
+			$product = wc_get_products($args);
+			echo get_permalink( $product[0]->get_id() );
+			break;
+		case 'post':
+			$args = array('orderby' => 'rand', 'posts_per_page' => 1, 'post_type' => 'post');
+			$post = get_posts($args);
+			echo get_permalink( $post[0]->ID );
+			break;
+		default:
+			echo get_home_url();
+			break;
+	}
+	exit();
+}
+add_action( 'wp_ajax_get_url', 'shopkeeper_get_customize_section_url' );

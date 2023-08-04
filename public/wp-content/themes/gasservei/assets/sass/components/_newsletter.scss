@@ -1,0 +1,29 @@
+.newsletter-container{
+    @include gradient-background();
+    // max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 0 20px;
+    .lpbLottiePlayer{
+        position: relative;
+        margin: 50px auto;
+    }
+    h2, p{
+        color:#FFF;
+        margin: 0px;
+    }
+    h2{
+        margin-top: 20px;
+    }
+    .wp-block-columns{
+        align-items: center;
+    }
+}
+@media screen and (min-width: 768px){
+    .newsletter-container{
+        .lpbLottiePlayer{
+            bottom: -25px;
+            margin: 0px;
+        }
+    }
+}

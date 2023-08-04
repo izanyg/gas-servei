@@ -1,0 +1,77 @@
+.brand-banner{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    .logo{
+        margin: 20px 0;
+        img{
+            width: inherit;
+        }
+    }
+    .btn{
+
+    }
+    .wp-block-media-text__content{
+        padding: 0px;
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            line-height: 1.8em;
+        }
+    }
+    .wp-block-media-text__media{
+        img{
+            display: block;
+            max-width: 350px;
+            margin: 0 auto;
+        }
+    }
+    &.value-banner{
+        .wp-block-media-text__media{
+            img{
+                display: block;
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1024px){
+    .brand-banner{
+        padding: 20px 100px 40px;
+    }
+}
+@media screen and (max-width: 899px){
+    .brand-banner{
+        padding-bottom: 20px;
+        .wp-block-media-text{
+            &:last-child{
+                margin-top: 50px;
+                margin-bottom: 20px;
+            }
+        }
+        .wp-block-media-text__media{
+            padding: 20px 80px;
+        }
+        .wp-block-media-text__content{
+            text-align: center;
+            padding: 0px 50px; 
+            .logo{
+                width: 180px;
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+            h2{
+                font-size: 14px !important;
+            }
+            p{
+                display: none;
+            }
+            .wp-block-buttons{
+                justify-content: center;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

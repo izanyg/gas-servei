@@ -1,0 +1,11 @@
+#st-container {
+  opacity: .2;
+  -webkit-transition: opacity .7s;
+  -o-transition: opacity .7s;
+  transition: opacity .7s; }
+
+#st-container.fade_in {
+  opacity: 1; }
+
+#st-container.fade_out {
+  opacity: .2; }

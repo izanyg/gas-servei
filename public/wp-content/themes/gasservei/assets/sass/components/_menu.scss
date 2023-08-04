@@ -1,0 +1,174 @@
+@mixin currentSignal(){   
+    
+    span{
+        display: block;
+        position: relative;
+        &:after{
+            position: absolute;
+            content: "";
+            background-image: url('../../img/fill-19.svg');
+            bottom: -5px;
+            left: -10px;
+            width: 20px;
+            height: 9px;
+        }
+    } 
+}
+
+nav.main-navigation>ul>li {
+    position: relative;
+    vertical-align: middle;
+    a {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.92px;
+        position: relative;
+        white-space: normal;
+    }
+    &.current-menu-item,
+    &.current-menu-parent{
+        > a{
+            @include currentSignal();
+        }
+        li{
+            &.current-menu-item,
+            &.current-menu-parent{
+                > a{
+                    color: $secondary-color;
+                    @include currentSignal();
+                }
+            }
+        }
+    }
+    .wpml-ls-native{
+        margin-top: -20px;
+        display: block;
+    }
+}
+.mobile-navigation{
+    li{
+        &.current-menu-item,
+        &.current-menu-parent{
+            > a{
+                color: $secondary-color !important;
+                @include currentSignal();
+            }
+            .more > .spk-icon-down-small,
+            .more > .spk-icon-up-small{
+                &:before{
+                    color: $secondary-color !important;
+                }
+            }
+        }
+        &.wpml-ls-item.menu-item-has-children{
+            padding-top: 20px;
+            margin-top: 20px;
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 30px;
+                top: 0px;
+                border-top: 3px solid #000;
+            }
+        }
+    }
+}
+.main-navigation, 
+.mobile-navigation{
+    ul ul.sub-menu{
+        padding: 15px 40px 20px 20px;
+        border-radius: 0px 0px 120px 0px;
+        >li {
+            position: relative;
+            a {
+                font-size: 12px;
+                font-weight: 700;
+                letter-spacing: 0.92px;
+                position: relative;
+                display: flex; 
+                text-transform: uppercase;
+                align-items: center;
+                flex-direction: row-reverse;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    object-fit: contain;
+                    object-position: center center;
+                    image-rendering: -webkit-optimize-contrast;
+                    margin-right: 10px;
+                }
+                span{
+                    width: 100%;
+                    display: inline-block;
+                    transition: 0.2s ease;
+                }
+                &:hover {
+                    background-size: 0; 
+                    color: $secondary-color !important;
+                }
+            }
+        }
+    }
+}
+ 
+
+.main-navigation>ul>li.menu-item-has-children:after {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-navigation ul ul {
+    padding: 20px;
+}
+.site-header-wrapper{
+
+    #menu-search-block{
+        display: none;
+    }
+} 
+
+.site-tools ul li.my_account a{
+    color: #FFF;
+    font-weight: bold;
+}
+.site-tools ul li.my_account .tools_account_text{
+    display: none;
+}
+@media screen and (min-width: 1024px){
+    .site-tools ul li.my_account .tools_account_text{
+        display: inline-block;
+    }
+    .site-tools ul li.my_account .tools_button_icon{
+        display: none !important;
+    }
+    
+    .site-header-wrapper{
+        .search-button{
+            display: none !important;
+        }
+        #menu-search-block{
+            display: block;
+            cursor: pointer;
+            *{
+                pointer-events: none;
+            }
+            input{
+                border-radius: 100px;
+            }
+            .arrow{
+                @include arrow(black);
+                top: 50%;
+                position: absolute;
+                right: 10px;
+                &:after{
+                    width: 25px;
+                }
+                &:before{
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+        }
+    }
+}

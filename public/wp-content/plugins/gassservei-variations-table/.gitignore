@@ -1,0 +1,9 @@
+/.vscode/
+*.pot~
+/.wordpress-org
+/.git
+/.github
+ui/node_modules
+ui/public/build
+
+.distignore

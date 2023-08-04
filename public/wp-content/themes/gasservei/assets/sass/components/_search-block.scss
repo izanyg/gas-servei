@@ -1,0 +1,27 @@
+.wc-block-product-search {
+    max-width: 440px;
+    .wc-block-product-search__fields{
+        .wc-block-product-search__field {
+            border-radius: 100px;
+            color: #686666;
+            font-size: 17px;
+            padding: 6px 15px;
+            height: auto;
+            padding-right: 50px;
+        }
+        button{
+            @include arrow(black);
+            position: absolute;
+            width: 35px;
+            height: 100%;
+            top: 0;
+            right: 15px;
+            svg{
+                display: none;
+            }
+            &:hover{
+                animation: blink 2s ease-in-out infinite;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+<wpml-config>
+    <admin-texts>
+        <key name="sk_facebook_messenger_link"/>
+        <key name="sk_pinterest_link"/>
+        <key name="sk_twitter_link"/>
+        <key name="sk_facebook_link"/>
+        <key name="sk_instagram_link"/>
+        <key name="sk_youtube_link"/>
+        <key name="sk_linkedin_link"/>
+        <key name="sk_whatsapp_link"/>
+        <key name="sk_googleplus_link"/>
+        <key name="sk_tumblr_link"/>
+        <key name="sk_vimeo_link"/>
+        <key name="sk_behance_link"/>
+        <key name="sk_dribbble_link"/>
+        <key name="sk_flickr_link"/>
+        <key name="sk_git_link"/>
+        <key name="sk_skype_link"/>
+        <key name="sk_weibo_link"/>
+        <key name="sk_foursquare_link"/>
+        <key name="sk_soundcloud_link"/>
+        <key name="sk_vk_link"/>
+        <key name="sk_houzz_link"/>
+        <key name="sk_naver_line_link"/>
+        <key name="sk_tripadvisor_link"/>
+        <key name="sk_wechat_link"/>
+        <key name="sk_telegram_link"/>
+        <key name="sk_viber_link"/>
+        <key name="sk_spotify_link"/>
+        <key name="sk_bandcamp_link"/>
+        <key name="sk_snapchat_link"/>
+        <key name="sk_medium_link"/>
+        <key name="sk_rss_link"/>
+        <key name="theme_mods_shopkeeper">
+            <key name="main_header_minicart_message"/>
+            <key name="top_bar_text"/>
+            <key name="footer_copyright_text"/>
+            <key name="out_of_stock_label"/>
+            <key name="sale_label"/>
+        </key>
+    </admin-texts>
+</wpml-config>

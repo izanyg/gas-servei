@@ -1,0 +1,22 @@
+:root {
+    --primary-color: 49, 67, 129;
+    --secondary-color: 238, 126, 18;
+    --heading-color: #131734;
+    --font-color: rgb(84, 84, 84);
+    --low: rgb(4, 186, 4);
+    --medium: rgb(255, 191, 0);
+    --big: rgb(227, 38, 54);
+    --base: rgb(84, 84, 84);
+    --grafito: #3E3E3E;
+}
+
+
+$primary-color: rgb(var(--primary-color)); 
+$secondary-color: rgb( var(--secondary-color) );
+$heading-color: rgb( var(--heading-color) );
+$font-color: var(--font-color);
+$low: var(--low);
+$medium: var(--medium);
+$big: var(--big);
+$base: var(--base);
+$grafito: var(--grafito);

@@ -1,0 +1,21 @@
+.site-search{
+    .search-text{
+        margin-bottom: 10px;
+        color: $secondary-color !important;
+        font-size: 0.8em;
+    }
+}
+.search-suggestions-wrapp{
+    .product_after_shop_loop{
+        .price{
+            display: none !important;
+        }
+    }
+}
+@media screen and (min-width: 769px){
+    .search-suggestions-wrapp{
+        .woocommerce ul.products{
+            flex-wrap: nowrap;
+        }
+    }
+}

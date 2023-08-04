@@ -1,0 +1,41 @@
+.error-404{
+    .error-banner{
+        display: block;
+        width: 150px;
+        height: 200px;
+        margin: 0px auto;
+        background-image: url('../../img/404.svg');
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        &:before {
+            display: none;
+        }
+    }
+    h1.page-title{
+        text-transform: none;
+    }
+    .search-products-404{
+        text-align: center;
+        form{
+            display: flex;
+            width: 500px;
+            max-width: 100%;
+            margin: 50px auto;
+            input, a{
+                float: none;
+                margin: 0px auto;
+                text-align: center;
+                position: relative;
+            }
+            &:after{
+                position: relative;
+                background-color: $secondary-color;
+                color: #FFF;
+                height: 50px;
+                width: 50px;
+                line-height: 50px;
+            }
+        }
+    }
+}

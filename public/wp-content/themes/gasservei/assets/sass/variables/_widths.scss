@@ -1,0 +1,7 @@
+$container-width: 1200px;
+@mixin container {
+    max-width: $container-width;
+    width: 100%;
+    padding: 20px;
+    margin: 0px auto;
+}

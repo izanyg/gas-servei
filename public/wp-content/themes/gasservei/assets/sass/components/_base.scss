@@ -1,0 +1,366 @@
+html {
+    line-height: 1.8em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    color: $primary-color;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+.comments-title, 
+.comment-author, 
+#reply-title, 
+.site-footer .widget-title, 
+.accordion_title, 
+.ui-tabs-anchor, 
+.products .button, 
+.site-title a, 
+.post_meta_archive a, 
+.post_meta a, 
+.post_tags a, 
+#nav-below a, 
+.list_categories a, 
+.list_shop_categories a, 
+.main-navigation > ul > li > a, 
+.main-navigation .mega-menu > ul > li > a, 
+.more-link, 
+.top-page-excerpt, 
+.select2-search input, 
+.product_after_shop_loop_buttons a, 
+.woocommerce .products-grid a.button, 
+.page-numbers, 
+input.qty, 
+.button, 
+button, 
+.button_text, 
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"], 
+button[type="submit"], 
+.woocommerce a.button, 
+.woocommerce-page a.button, 
+.woocommerce button.button, 
+.woocommerce-page button.button, 
+.woocommerce input.button, 
+.woocommerce-page input.button, 
+.woocommerce #respond input#submit, 
+.woocommerce-page #respond input#submit, 
+.woocommerce #content input.button, 
+.woocommerce-page #content input.button, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt, 
+.woocommerce #respond input#submit.alt, 
+.woocommerce #content input.button.alt, 
+.woocommerce-page a.button.alt, 
+.woocommerce-page button.button.alt, 
+.woocommerce-page input.button.alt, 
+.woocommerce-page #respond input#submit.alt, 
+.woocommerce-page #content input.button.alt, 
+.yith-wcwl-wishlistexistsbrowse.show a, 
+.share-product-text, 
+.tabs > li > a, 
+label, 
+.shopkeeper_new_product, 
+.comment-respond label, 
+.product_meta_title, 
+.woocommerce table.shop_table th, 
+.woocommerce-page table.shop_table th, 
+#map_button, 
+.woocommerce .cart-collaterals .cart_totals tr.order-total td strong, 
+.woocommerce-page .cart-collaterals .cart_totals tr.order-total td strong, 
+.cart-wishlist-empty, 
+.wishlist-empty, 
+.cart-empty, 
+.return-to-shop .wc-backward, 
+.order-number a, 
+.post-edit-link, 
+.from_the_blog_title, 
+.icon_box_read_more, 
+.vc_pie_chart_value, 
+.shortcode_banner_simple_bullet, 
+.shortcode_banner_simple_height_bullet, 
+.product-category .woocommerce-loop-category__title, 
+.categories_grid .category_name, 
+.woocommerce span.onsale, 
+.woocommerce-page span.onsale, 
+.out_of_stock_badge_single, 
+.out_of_stock_badge_loop, 
+.page-numbers, 
+.post-nav-links span, 
+.post-nav-links a, 
+.add_to_wishlist, 
+.yith-wcwl-wishlistaddedbrowse, 
+.yith-wcwl-wishlistexistsbrowse, 
+.filters-group, 
+.product-name, 
+.product-quantity, 
+.product-total, 
+.download-product a, 
+.woocommerce-order-details table tfoot th, 
+.woocommerce-order-details table tfoot td, 
+.woocommerce .woocommerce-order-downloads table tbody td:before, 
+.woocommerce table.woocommerce-MyAccount-orders td:before, 
+.widget h3, 
+.widget .total .amount, 
+.wishlist-in-stock, 
+.wishlist-out-of-stock, 
+.comment-reply-link, 
+.comment-edit-link, 
+.widget_calendar table thead tr th, 
+.page-type, 
+.mobile-navigation a, 
+table thead tr th, 
+.portfolio_single_list_cat, 
+.portfolio-categories, 
+.shipping-calculator-button, 
+.vc_btn, 
+.vc_btn2, 
+.vc_btn3, 
+.account-tab-item .account-tab-link, 
+.account-tab-list .sep, 
+ul.order_details li, 
+ul.order_details.bacs_details li, 
+.widget_calendar caption, 
+.widget_recent_comments li a, 
+.edit-account legend, 
+.widget_shopping_cart li.empty, 
+.cart-collaterals .cart_totals .shop_table .order-total .woocommerce-Price-amount, 
+.woocommerce table.cart .cart_item td a, 
+.woocommerce #content table.cart .cart_item td a, 
+.woocommerce-page table.cart .cart_item td a, 
+.woocommerce-page #content table.cart .cart_item td a, 
+.woocommerce table.cart .cart_item td span, 
+.woocommerce #content table.cart .cart_item td span, 
+.woocommerce-page table.cart .cart_item td span, 
+.woocommerce-page #content table.cart .cart_item td span, 
+.woocommerce-MyAccount-navigation ul li, 
+.cd-quick-view .cd-item-info .product_infos .quickview-badges .onsale, 
+.woocommerce-info.wc_points_rewards_earn_points, 
+.woocommerce-info, 
+.woocommerce-error, 
+.woocommerce-message, 
+.woocommerce .cart-collaterals .cart_totals .cart-subtotal th, 
+.woocommerce-page .cart-collaterals .cart_totals .cart-subtotal th, 
+.woocommerce .cart-collaterals .cart_totals tr.shipping th, 
+.woocommerce-page .cart-collaterals .cart_totals tr.shipping th, 
+.woocommerce .cart-collaterals .cart_totals tr.order-total th, 
+.woocommerce-page .cart-collaterals .cart_totals tr.order-total th, 
+.woocommerce .cart-collaterals .cart_totals h2, 
+.woocommerce .cart-collaterals .cross-sells h2, 
+.woocommerce-cart #content table.cart td.actions .coupon #coupon_code, 
+form.checkout_coupon #coupon_code, 
+.woocommerce-checkout .woocommerce-info, 
+.shopkeeper_checkout_coupon, 
+.shopkeeper_checkout_login, 
+.minicart-message, 
+.woocommerce .woocommerce-checkout-review-order table.shop_table tfoot td, 
+.woocommerce .woocommerce-checkout-review-order table.shop_table tfoot th, 
+.woocommerce-page .woocommerce-checkout-review-order table.shop_table tfoot td, 
+.woocommerce-page .woocommerce-checkout-review-order table.shop_table tfoot th, 
+.no-products-info p, 
+.getbowtied_blog_ajax_load_button a, 
+.getbowtied_ajax_load_button a, 
+.index-layout-2 ul.blog-posts .blog-post article .post-categories li a, 
+.index-layout-3 .blog-posts_container ul.blog-posts .blog-post article .post-categories li a, 
+.index-layout-2 ul.blog-posts .blog-post .post_content_wrapper .post_content .read_more, 
+.index-layout-3 .blog-posts_container ul.blog-posts .blog-post article .post_content_wrapper .post_content .read_more, 
+.woocommerce .woocommerce-breadcrumb, 
+.woocommerce-page .woocommerce-breadcrumb, 
+.woocommerce .woocommerce-breadcrumb a, 
+.woocommerce-page .woocommerce-breadcrumb a, 
+.product_meta, 
+.product_meta span, 
+.product_meta a, 
+.product_layout_classic div.product span.price, 
+.product_layout_classic div.product p.price, 
+.product_layout_2 div.product span.price, 
+.product_layout_2 div.product p.price, 
+.product_layout_3 div.product span.price, 
+.product_layout_3 div.product p.price, 
+.product_layout_4 div.product span.price, 
+.product_layout_4 div.product p.price, 
+.related-products-title, 
+.product_socials_wrapper .share-product-text, 
+#button_offcanvas_sidebar_left .filters-text, 
+.woocommerce-ordering select.orderby, 
+.fr-position-text, 
+.woocommerce-checkout-review-order .woocommerce-checkout-review-order-table tr td, 
+.catalog-ordering .select2-container.orderby a, 
+.catalog-ordering .select2-container span, 
+.widget_product_categories ul li .count, 
+.widget_layered_nav ul li .count, 
+.woocommerce-mini-cart__empty-message, 
+.woocommerce-ordering select.orderby, 
+.woocommerce .cart-collaterals .cart_totals table.shop_table_responsive tr td::before, 
+.woocommerce-page .cart-collaterals .cart_totals table.shop_table_responsive tr td::before, 
+.login-register-container .lost-pass-link, 
+.woocommerce-cart .cart-collaterals .cart_totals table td .amount, 
+.wpb_wrapper .add_to_cart_inline .woocommerce-Price-amount.amount, 
+.woocommerce-page .cart-collaterals .cart_totals tr.shipping td, 
+.woocommerce-page .cart-collaterals .cart_totals tr.shipping td, 
+.woocommerce .cart-collaterals .cart_totals tr.cart-discount th, 
+.woocommerce-page .cart-collaterals .cart_totals tr.cart-discount th, 
+.woocommerce-thankyou-order-received, 
+.woocommerce-order-received .woocommerce table.shop_table tfoot th, 
+.woocommerce-order-received .woocommerce-page table.shop_table tfoot th, 
+.woocommerce-view-order .woocommerce table.shop_table tfoot th, 
+.woocommerce-view-order .woocommerce-page table.shop_table tfoot th, 
+.woocommerce-order-received .woocommerce table.shop_table tfoot td, 
+.woocommerce-order-received .woocommerce-page table.shop_table tfoot td, 
+.woocommerce-view-order .woocommerce table.shop_table tfoot td, 
+.woocommerce-view-order .woocommerce-page table.shop_table tfoot td, 
+.language-and-currency #top_bar_language_list > ul > li, 
+.language-and-currency .wcml_currency_switcher > ul > li.wcml-cs-active-currency, 
+.language-and-currency-offcanvas #top_bar_language_list > ul > li, 
+.language-and-currency-offcanvas .wcml_currency_switcher > ul > li.wcml-cs-active-currency, 
+.woocommerce-order-pay .woocommerce .woocommerce-form-login p.lost_password a, 
+.woocommerce-MyAccount-content .woocommerce-orders-table__cell-order-number a, 
+.woocommerce form.login .lost_password, 
+.comment-reply-title, 
+.product_content_wrapper .product_infos .out_of_stock_wrapper .out_of_stock_badge_single, 
+.product_content_wrapper .product_infos .woocommerce-variation-availability p.stock.out-of-stock, 
+.site-search .widget_product_search .search-field, 
+.site-search .widget_search .search-field, 
+.site-search .search-form .search-field, 
+.site-search .search-text, 
+.site-search .search-no-suggestions, 
+.latest_posts_grid_wrapper .latest_posts_grid_title, 
+p.has-drop-cap:not(:focus):first-letter, 
+.paypal-button-tagline .paypal-button-text, 
+.tinvwl_add_to_wishlist_button, 
+.product-addon-totals, 
+body.gbt_custom_notif .page-notifications .gbt-custom-notification-message, 
+body.gbt_custom_notif .page-notifications .gbt-custom-notification-message *, 
+body.gbt_custom_notif .page-notifications .product_notification_text, 
+body.gbt_custom_notif .page-notifications .product_notification_text *, 
+body.gbt_classic_notif .woocommerce-error a, 
+body.gbt_classic_notif .woocommerce-info a, 
+body.gbt_classic_notif .woocommerce-message a, 
+body.gbt_classic_notif .woocommerce-notice a, 
+.shop_table.cart .product-price .amount, 
+p.has-drop-cap:first-letter, 
+.woocommerce-result-count, 
+.widget_price_filter .price_slider_amount, 
+.woocommerce ul.products li.product .price, 
+.product_content_wrapper .product_infos table.variations td.label, 
+.woocommerce div.product form.cart .reset_variations, 
+.cd-quick-view .cd-item-info .product_infos .product_price .price, 
+#powerTip, 
+div.wcva_shop_textblock, 
+.wcva_filter_textblock, 
+.wcva_single_textblock, 
+.cd-quick-view .swatchtitlelabel, 
+.cd-quick-view .wcva_attribute_sep, 
+.cd-quick-view .wcva_selected_attribute, 
+.added_to_cart, 
+.upper a, 
+.wp-block-woocommerce-active-filters ul.wc-block-active-filters-list li *, 
+.wp-block-woocommerce-active-filters .wc-block-active-filters__clear-all, 
+.product_navigation #nav-below span, 
+.order-info mark, 
+.top-headers-wrapper .site-header .site-header-wrapper .site-title, 
+.mobile-navigation > ul > li > ul > li.menu-item-has-children > a, 
+.mobile-navigation > ul > li > ul li.upper > a, 
+.mobile-navigation > ul > li > ul > li > a{
+    font-family: $neueFont;
+}
+p {
+    line-height: 1.8em;
+    font-size: 16px;
+    color: #000;
+}
+.site-header {
+    @include gradient-background();
+}
+h1.page-title {
+    font-size: 32px !important;
+    font-weight: 600;
+    letter-spacing: 0.91px;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+h2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.2em;
+    position: relative;
+    color: $heading-color;
+    .underline{
+        position: relative;
+        white-space: nowrap;
+        display: inline-block;
+        &:after{
+            content: '';
+            height: 7px;
+            background: $secondary-color;
+            border-radius: 5px;
+            opacity: 0.6;
+            display: block;
+            bottom: 10px;
+            left: 0px;
+            right: 0px;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+}
+
+a.button {
+    color: #FFF;
+    &:hover {
+        color: #FFF !important;
+    }
+}
+.category{    
+    color: $secondary-color;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header.entry-header .row>div {
+    width: 100%;
+}
+
+#map h2 {
+    font-size: 16px;
+}
+
+#primary.container {
+    @include container;
+}
+svg #blink{
+    animation: blink 2s ease-in-out infinite;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 40px;
+}
+
+//columns breakpoints
+@media (max-width: 900px) {
+    .wp-block-columns {
+        flex-wrap: wrap;
+    }
+    .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column:not(:only-child),
+    .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column {
+        flex-basis: 100% !important;
+    }
+    .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column:nth-child(even) {
+      margin-left: 0px;
+    }
+}

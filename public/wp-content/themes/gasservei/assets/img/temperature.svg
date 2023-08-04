@@ -1,0 +1,21 @@
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-582 577 35 47" style="enable-background:new -582 577 35 47;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#7A7978;stroke-width:4;}
+	.st1{fill:none;stroke:#7A7978;}
+	.st2{fill:#FD5A00;}
+	.st3{fill:none;stroke:#FD5A00;stroke-width:4;}
+</style>
+<g>
+	<g transform="translate(9)">
+		<g>
+			<path class="st0" d="M-574.6,580v34"/>
+			<path class="st1" d="M-562.2,580h-5.7H-562.2z"/>
+			<path class="st1" d="M-562.2,592h-5.7H-562.2z"/>
+			<path class="st1" d="M-562.2,604h-5.7H-562.2z"/>
+		</g>
+		<ellipse class="st2" cx="-574.6" cy="614" rx="6.7" ry="7"/>
+	</g>
+</g>
+<path id="bar" class="st3" d="M-565.6,580v30"/>
+</svg>

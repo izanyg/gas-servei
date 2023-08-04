@@ -1,0 +1,58 @@
+@keyframes dash {
+    from {
+        stroke-dashoffset: -33;
+    }
+    to {
+        stroke-dashoffset: 33;
+    }
+}
+
+@keyframes scale {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: scale(0.9) rotate(-45deg);
+        // transform-origin: bottom left;
+    }
+    to {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+@keyframes fire {
+    from {
+        transform: scale(0.95) rotate(-10deg);
+        transform-origin: bottom center;
+    }
+    to {
+        transform: scale(1.05) rotate(10deg);
+    }
+}
+
+@keyframes width {
+    from {
+        width: 0px;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

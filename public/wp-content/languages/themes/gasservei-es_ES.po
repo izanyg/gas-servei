@@ -1,0 +1,24 @@
+# Translation of Themes - Twenty Nineteen in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Gasservei package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-11 05:55:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Gasservei\n"
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+msgid "Credit payment"
+msgstr "Pago a crédito"
+
+#: woocommerce/myaccount/form-lost-password.php:25
+msgid "Lost your password? Please enter your email address. You will receive a link to create a new password via email."
+msgstr "¿Perdiste tu contraseña? Por favor, introduce tu correo electrónico. Recibirás un enlace para crear una contraseña nueva por correo electrónico."
+
+msgid "Sí"
+msgstr "Sí"

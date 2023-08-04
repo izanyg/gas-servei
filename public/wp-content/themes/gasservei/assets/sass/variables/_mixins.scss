@@ -1,0 +1,66 @@
+@mixin arrow($color: $secondary-color){    
+    &:after{
+        transition: all 0.3s ease-in-out 0.1s;
+        width: 35px;
+        height: 1px;
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: $color;
+    }
+    &:before{
+        transition: all 0.3s ease-in-out 0.1s;
+        width: 15px;
+        height: 15px;
+        content: "";
+        position: absolute;
+        right: 2px;
+        top: 50%;
+        transform: translateY(-50%) rotate(45deg);
+        border-top: 1px solid $color;
+        border-right: 1px solid $color;
+    }
+}
+
+@mixin gradient-background($color1: rgba(6,106,139,1), $color2: rgba(17,0,77,1), $limit: 42%){
+    background-color: $color2;
+    background: linear-gradient(52deg, $color1 0%, $color2 $limit);
+}
+
+@mixin box( $color: rgba(24, 33, 45, 0.13)){
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    box-shadow: 0px 9px 0px $color !important;
+}
+
+@mixin importantButton(){
+    font-family: $neueFont;
+    @include arrow();
+    border: 2px solid $secondary-color !important;
+    background-color: #FFF !important;
+    color: $secondary-color !important;
+    transition: all 0.3s ease-in-out;
+    &:after{
+        right: 10px !important;
+        background-color: $secondary-color !important;
+        display: block !important;
+    }
+    &:before{
+        right: 12px !important;
+    }
+    &:hover{
+        background-color: $secondary-color !important;
+        color: #FFF !important;
+        opacity: 1 !important;
+        &:after{
+            background-color: #FFF !important;
+        }
+        &:before{
+            border-top: 1px solid #FFF !important;
+            border-right: 1px solid #FFF !important;
+        }
+    }
+}

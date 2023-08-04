@@ -1,0 +1,70 @@
+@mixin line-btn($font-size: 14px){
+    position: relative;
+    display: inline-block;
+    @include arrow();
+    border: 2px solid $secondary-color;
+    color: $secondary-color;
+    background-color: #FFF;
+    font-size: $font-size !important;
+    text-transform: uppercase;
+    border-radius: 100px !important;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 70px 10px 20px !important;
+    font-weight: bold;
+    &:after{
+        right: 20px;
+    }
+    &:before{
+        right: 22px;
+    }
+    &:hover{
+        opacity: 1;
+        color: #FFF;
+        background-color: $secondary-color;
+        &:after{
+            background-color: #FFF;
+        }
+        &:before{
+            border-color: #FFF;
+        }
+    }
+}
+
+.btn{
+    &.line-btn{
+        @include line-btn();
+    }
+}
+.line-btn-container{
+    a, .wp-block-button__link{
+        position: relative;
+        display: inline-block;
+        @include arrow();
+        border: 2px solid $secondary-color;
+        color: $secondary-color;
+        background-color: transparent;
+        font-size: 14px;
+        text-transform: uppercase;
+        border-radius: 100px;
+        transition: all 0.3s ease-in-out;
+        padding: 10px 70px 10px 20px;
+        font-weight: bold;
+        &:after{
+            right: 20px;
+        }
+        &:before{
+            right: 22px;
+        }
+        &:hover{
+            opacity: 1;
+            color: #FFF;
+            background-color: $secondary-color;
+            &:after{
+                background-color: #FFF;
+            }
+            &:before{
+                border-color: #FFF;
+            }
+        }
+    }
+}

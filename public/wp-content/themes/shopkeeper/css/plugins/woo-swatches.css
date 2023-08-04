@@ -1,0 +1,190 @@
+.product_content_wrapper .product_infos table.variations td.label {
+  text-transform: uppercase;
+  font-size: .8125rem;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-bottom: 1px;
+  line-height: 2em; }
+
+.product_content_wrapper .product_infos table.variations .wcvaswatchlabel,
+.product_content_wrapper .product_infos table.variations .wcva_single_textblock {
+  outline-color: transparent !important; }
+
+.product_content_wrapper .product_infos table.variations .wcvaswatchlabel {
+  border-width: 2px !important;
+  -webkit-transition: all .15s ease-in;
+  -o-transition: all .15s ease-in;
+  transition: all .15s ease-in; }
+
+.product_content_wrapper .product_infos table.variations .wcvaswatchlabel.wcvaround:hover {
+  border: 1px solid !important; }
+
+.product_content_wrapper .product_infos table.variations .wcva_single_textblock,
+.product_content_wrapper .product_infos table.variations .wcva_single_textblock:hover {
+  border-width: 1px !important; }
+
+.product_content_wrapper .product_infos table.variations .wcva_single_textblock:hover {
+  outline-color: transparent !important; }
+
+.product_content_wrapper .product_infos table.variations label.wcvasquare.selectedswatch {
+  opacity: 1;
+  outline-width: 2px !important; }
+
+.product_content_wrapper .product_infos table.variations label.wcva_image_label {
+  background-size: cover; }
+
+.product_content_wrapper .product_infos table.variations div.swatchinput {
+  padding-bottom: 0; }
+
+.product_content_wrapper .product_infos table.variations label.wcvasquare,
+.product_content_wrapper .product_infos table.variations label.wcvaround {
+  margin: 0; }
+
+.product_content_wrapper .product_infos table.variations label.wcvasquare {
+  border-radius: 0; }
+
+.product_content_wrapper .product_infos table.variations label.wcva_single_textblock {
+  background: transparent;
+  font-size: 13px;
+  font-weight: bold !important;
+  line-height: 1.4;
+  margin-top: 0;
+  padding: 9px 10px 5px;
+  text-transform: none; }
+
+.product_content_wrapper .product_infos table.variations label.selectedswatch.wcvaround.wcva_single_textblock {
+  border-radius: 50%; }
+
+.product_content_wrapper .product_infos table.variations label.wcva_single_textblock + .belowtext {
+  margin-top: 12px; }
+
+.product_content_wrapper .product_infos table.variations span.belowtext {
+  font-size: 13px !important;
+  line-height: 1.4;
+  display: block;
+  text-align: center;
+  width: 100% !important; }
+
+ul.products li.product .shopswatchinput {
+  display: inline-block;
+  line-height: 0;
+  padding: 4px 1px;
+  width: 100%; }
+  ul.products li.product .shopswatchinput > a {
+    margin-top: 4px; }
+  ul.products li.product .shopswatchinput + .woocommerce-loop-product__title {
+    padding: 0; }
+
+ul.products li.product div.wcvashopswatchlabel {
+  background-size: contain !important;
+  margin-right: 0;
+  background: transparent;
+  outline: none !important; }
+
+ul.products li.product div.wcvashopswatchlabel:not(.wcvaround) {
+  border-radius: 0; }
+
+ul.products li.product .wcva_shop_textblock {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1.3;
+  padding-top: 7px; }
+
+ul.products li.product div.shopswatchinput a {
+  margin-right: 4px; }
+
+ul.products li.product a.wcvaswatchinput:hover {
+  opacity: 1; }
+
+ul.products li.product a.multiple.slide.wcvaswatchinput {
+  min-height: 100%; }
+
+ul.products li.product .wcva-multiple-items .slide {
+  margin-bottom: 2px;
+  margin-top: 2px; }
+
+ul.products li.product .shopswatchinput img.nextArrowBtn.slick-arrow {
+  cursor: pointer;
+  margin-top: 8px; }
+
+ul.products li.product .product_thumbnail_wrapper + .shopswatchinput {
+  padding-top: 13px;
+  padding-bottom: 0; }
+  @media screen and (max-width: 75em) {
+    ul.products li.product .product_thumbnail_wrapper + .shopswatchinput {
+      padding-right: 35px; } }
+
+ul.products li.product .wcvashopswatchlabel,
+ul.products li.product .wcva_filter_textblock {
+  outline-color: transparent;
+  outline-style: solid; }
+
+ul.products li.product div.wcvashopswatchlabel {
+  border-width: 1px !important;
+  -webkit-transition: all .15s ease-in;
+  -o-transition: all .15s ease-in;
+  transition: all .15s ease-in;
+  outline: 1px solid transparent; }
+
+ul.products li.product div.wcva_filter_textblock:hover {
+  border-width: 1px !important; }
+
+.wcva-filter-widget {
+  overflow: auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  margin-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.wpb_widgetised_column br {
+  display: none !important; }
+
+.wcva_layered_nav .wcvashopswatchlabel,
+.wcva_layered_nav .wcva_filter_textblock {
+  outline-color: transparent;
+  outline-style: solid; }
+
+.wcva_layered_nav .wcvashopswatchlabel.wcva-selected-filter {
+  border-width: 2px !important; }
+
+.wcva_layered_nav div.wcvashopswatchlabel {
+  border-width: 1px !important;
+  -webkit-transition: all .15s ease-in;
+  -o-transition: all .15s ease-in;
+  transition: all .15s ease-in; }
+
+.wcva_layered_nav div.wcva_filter_textblock:hover {
+  border-width: 1px !important; }
+
+.wcva_layered_nav div.wcva_filter_textblock {
+  border: 1px solid;
+  background: transparent;
+  padding: 7px 10px 4px;
+  line-height: 1.4; }
+
+.wcva_layered_nav div.wcvashopswatchlabel {
+  margin: 0 10px 10px 1px; }
+
+.wcva_layered_nav .wcvasquare {
+  border-radius: 0; }
+
+.wcva_layered_nav a.wcvaswatchinput:hover {
+  opacity: 1; }
+
+.wcva_layered_nav .wcvashopswatchlabel.wcvasquare.wcva-selected-filter.wcva_filter_textblock:hover {
+  border-color: transparent !important; }
+
+#powerTip {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 1; }
+
+.cd-quick-view .swatchtitlelabel,
+.cd-quick-view .wcva_attribute_sep,
+.cd-quick-view .wcva_selected_attribute {
+  text-transform: uppercase;
+  font-size: .8125rem;
+  font-weight: bold;
+  line-height: 2em; }

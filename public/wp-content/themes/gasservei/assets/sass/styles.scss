@@ -1,0 +1,48 @@
+/*
+Theme Name: Gas Servei
+Theme URI: https://gasservei.com
+Description: This is a child theme for Gas Servei Shop.
+Author: Mimotic
+Author URI: https://mimotic.com/
+Template: shopkeeper
+Version: 1.1
+*/
+
+@import 'variables/fonts';
+@import 'variables/colors';
+@import 'variables/animations';
+@import 'variables/mixins';
+@import 'variables/widths';
+@import 'components/layout';
+@import 'components/base';
+@import 'components/buttons';
+@import 'components/menu';
+@import 'components/product_layout';
+@import 'components/product_variations';
+@import 'components/product';
+@import 'components/product_block';
+@import 'components/slider';
+@import 'components/product-category';
+@import 'components/blocks';
+@import 'components/widgets';
+@import 'components/home';
+@import 'components/inputs';
+@import 'components/cart';
+@import 'components/checkout';
+@import 'components/footer';
+@import 'components/distributors';
+@import 'components/header-search-section';
+@import 'components/search-block';
+@import 'components/newsletter';
+@import 'components/thunder';
+@import 'components/logistic';
+@import 'components/categories-block';
+@import 'components/product_archive'; 
+@import 'components/related';
+@import 'components/woocommerce';
+@import 'components/slider-home';
+@import 'components/shop-sidebar';
+@import 'components/breadcrumb';
+@import 'components/search-results';
+@import 'components/404';
+@import 'components/sidebar';

@@ -1,0 +1,64 @@
+.header-search-section{
+    .container{
+        max-width: 112.5rem;
+        margin: 0px auto;
+        .wp-block-columns{
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+}
+
+.header-search-section{
+    @include gradient-background();
+    padding-top: 50px;
+    position: relative;
+    color: #FFF;
+    margin-bottom: 0;
+    &:after{
+        content: "";
+        position: absolute;
+        z-index: 1;
+        left: -50%;
+        right: 0;
+        height: 216px;
+        bottom: -1px;
+        background-image: url('../../img/waves.svg');
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: repeat no-repeat;
+    }
+    .wp-block-columns{
+        .wp-block-column{
+            padding-bottom: 50px;
+            &:last-child{
+                display: none;
+                position: relative;
+                z-index: 2;
+            }
+        }
+    }
+    h1, h2, h3{
+        color: #FFF;
+    }
+    h2{
+        font-size: 32px;
+        margin-bottom: 30px;
+        opacity: 0.83;
+        max-width: 750px;
+    }
+    .wc-block-product-search__fields {
+        z-index: 9;
+    }
+}
+@media screen and (min-width: 900px){
+    .header-search-section{
+        .wp-block-columns{
+            .wp-block-column{
+                &:last-child{
+                    display: block;
+                }
+            }
+        }
+    }
+}
