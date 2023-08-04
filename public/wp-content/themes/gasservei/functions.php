@@ -1,6 +1,6 @@
 <?php //Start building your awesome child theme functions
 // If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
+if (!defined('WPINC')) {
     die;
 }
 
@@ -8,7 +8,7 @@ if ( ! defined( 'WPINC' ) ) {
  *  START APP
  *  Sets initial state loading deps
  */
-if ( file_exists(  __DIR__ . '/bootstrap/MimoticBootstrap.php' ) ) {
+if (file_exists(__DIR__ . '/bootstrap/MimoticBootstrap.php')) {
     require_once  __DIR__ . '/bootstrap/MimoticBootstrap.php';
 
     $gasServeiApp = new MimoticBootstrap(array(
@@ -16,6 +16,7 @@ if ( file_exists(  __DIR__ . '/bootstrap/MimoticBootstrap.php' ) ) {
         "modules/enqueueScripts",
         "modules/googleApiKey",
         "modules/analyticsScript",
+        "modules/conditionalMenu",
         "modules/sendinblueChatSnippet",
         "modules/removeMetaTags",
         "modules/registerSidebars",
@@ -41,9 +42,10 @@ if ( file_exists(  __DIR__ . '/bootstrap/MimoticBootstrap.php' ) ) {
         "modules/woocommerce/translateOnSaleBadget",
         "modules/woocommerce/replaceThankyouTitle",
         "modules/woocommerce/avoidPriceRanges",
-        "modules/woocommerce/addCategoriesToSearchQuery",
+        // "modules/woocommerce/addCategoriesToSearchQuery",
         "modules/woocommerce/replaceCheckoutButtonText",
         "modules/woocommerce/fixSideBarFilterCounter",
+        "modules/woocommerce/searchBySku",
     ));
 
     $gasServeiApp->start();

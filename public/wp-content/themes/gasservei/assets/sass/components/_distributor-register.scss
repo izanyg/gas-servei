@@ -1,0 +1,64 @@
+.distributor-register{
+    @include gradient-background(#0f1575, #437bd5, 90%);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 35px 25px;
+    h2{
+    	width: 70%;
+    	float: left;
+    	text-align: left;
+    }
+    .wpcf7 .wp-block-buttons{
+    	clear:both;
+    	display: flex;
+    	justify-content: flex-end;
+    }
+    button{
+    	cursor: pointer;
+    }
+    label{
+    	.req{
+    		color: $secondary-color;
+    	}
+    	input,
+    	textarea{
+    		border-radius: 10px;
+    	}
+    	text-transform: none;
+    	color: #FFF;
+    	float: left;
+    	width: 100%;
+    	text-align: left;
+    	margin-bottom: 30px;
+    }
+    .wpcf7-response-output{
+    	border: $secondary-color;
+    	color: #FFF;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .distributor-register{
+    	padding: 50px 100px;
+	    h2{
+	    	width: 70%;
+	    	float: right;
+	    	text-align: right;
+	    }
+	    label[for=your-name], 
+	    label[for=your-email]{
+	    	width: 48%;
+	    }
+	    label[for=your-name]{
+	    	margin-right: 4%;
+	    }
+    }
+}
+
+// Wordpress keeps column side paddings when stacking
+@media screen and (max-width: 900px){
+	.wp-block-column{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}

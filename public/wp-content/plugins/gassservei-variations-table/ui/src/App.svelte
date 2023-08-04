@@ -37,6 +37,7 @@
     price_html: 'html',
     regular_price_html: 'html',
     sale_price_html: 'html',
+    offer: 'html',
     quantity: 'text'
   }
 
@@ -174,7 +175,7 @@
       <tr>
         {#each columns as column, i}
           {#if column.active === 'on'}
-            {#if column.key !== 'attributes' && column.key !== 'quantity'}
+            {#if column.key !== 'attributes' && column.key !== 'quantity' && column.key !== 'link'}
               <th
                 on:click={() => sortBy(column.key)}
                 class:active={sortKey === column.key}
@@ -185,6 +186,8 @@
                   class:asc={sortOrders[column.key] > 0 || sortKey !== column.key}
                   class:dsc={sortOrders[column.key] < 0 && sortKey === column.key} />
               </th>
+            {:else if column.key === 'link'}
+              <th class={column.key}></th>
             {:else if column.key === 'quantity'}
               <th class={column.key}>{column.title}</th>
             {:else}

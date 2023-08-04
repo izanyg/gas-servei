@@ -13,3 +13,13 @@ msgstr ""
 
 msgid "Sí"
 msgstr "Yes"
+
+msgid "<span class='highlight'>Descuento</span> a partir de %s uds."
+msgstr "Buy %s and get a <span class='highlight'>discount</span>."
+
+msgid "Offer"
+msgstr "Offer"
+
+msgid "Oferta distribuidor"
+msgstr "Distributor offer"
+

@@ -8,3 +8,22 @@
         margin: 20px auto;
     }
 }
+
+.page-template-distributors-offers-template .variations-table .add-to-cart {
+	display: none !important;
+}
+
+#variations-table a {
+    width: auto !important;
+    border-radius: 100px !important;
+    padding: 5px 10px !important;
+    min-width: auto;
+    background-color: rgb(var(--secondary-color));
+    border: 2px solid rgb(var(--secondary-color));
+    position: relative;
+    text-transform: none;
+}
+
+#variations-table button.spk-icon-arrow-right:before {
+  content: "";
+}

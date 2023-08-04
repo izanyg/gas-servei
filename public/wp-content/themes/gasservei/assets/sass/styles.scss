@@ -32,6 +32,8 @@ Version: 1.1
 @import 'components/footer';
 @import 'components/distributors';
 @import 'components/header-search-section';
+@import 'components/header-become-distributor-section';
+@import 'components/distributor-advantages';
 @import 'components/search-block';
 @import 'components/newsletter';
 @import 'components/thunder';
@@ -41,8 +43,19 @@ Version: 1.1
 @import 'components/related';
 @import 'components/woocommerce';
 @import 'components/slider-home';
+@import 'components/testimonial-slider';
+@import 'components/distributor-register';
 @import 'components/shop-sidebar';
 @import 'components/breadcrumb';
 @import 'components/search-results';
 @import 'components/404';
 @import 'components/sidebar';
+
+
+
+
+
+.off-canvas .wpb_widgetised_column aside.woocommerce-widget-layered-nav {
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+}

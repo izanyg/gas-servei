@@ -22,3 +22,12 @@ msgstr "¿Perdiste tu contraseña? Por favor, introduce tu correo electrónico. 
 
 msgid "Sí"
 msgstr "Sí"
+
+msgid "<span class='highlight'>Descuento</span> a partir de %s uds."
+msgstr "<span class='highlight'>Descuento</span> a partir de %s uds."
+
+msgid "Offer"
+msgstr "Oferta"
+
+msgid "Oferta distribuidor"
+msgstr "Oferta distribuidor"

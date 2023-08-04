@@ -123,7 +123,7 @@
 >
   {#each columns as column, i}
     {#if column.active === "on"}
-      {#if column.key !== "attributes" && column.key !== "quantity"}
+      {#if column.key !== "attributes" && column.key !== "quantity" && column.key !== "link"}
         <td data-title={column.title} class="{column.key}">
           <div>
             {#if column.type === "image"}
@@ -155,6 +155,18 @@
             {/if}
           </div>
         </td>
+      {:else if column.key === "link"}
+        <td class="link">
+          <a
+            class="button alt"
+            class:added
+            class:loading
+            href={item.product_url}
+          >
+            <span class="spk-icon-arrow-right"></span>
+            {textVars.link}
+          </a>
+        </td>
       {:else if column.key === "quantity"}
         <td class="quantity">
           <div>
@@ -184,6 +196,9 @@
             >
               {@html item["availability_html"]}
             </span>
+            {#if item["distributor_offer"]}
+            {@html item["distributor_offer_html"]}
+            {/if}
           </div>
         </td>
       {:else}

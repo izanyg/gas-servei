@@ -30,18 +30,19 @@
     }
 }
 
+
 .btn{
     &.line-btn{
         @include line-btn();
     }
 }
-.line-btn-container{
-    a, .wp-block-button__link{
+@mixin line-btn-container($color: $secondary-color, $hover-color: #FFF){
+    a, .wp-block-button__link, button{
         position: relative;
         display: inline-block;
-        @include arrow();
-        border: 2px solid $secondary-color;
-        color: $secondary-color;
+        @include arrow($color);
+        border: 2px solid $color;
+        color: $color;
         background-color: transparent;
         font-size: 14px;
         text-transform: uppercase;
@@ -49,6 +50,7 @@
         transition: all 0.3s ease-in-out;
         padding: 10px 70px 10px 20px;
         font-weight: bold;
+        z-index: 10;
         &:after{
             right: 20px;
         }
@@ -57,14 +59,21 @@
         }
         &:hover{
             opacity: 1;
-            color: #FFF;
-            background-color: $secondary-color;
+            color: $hover-color;
+            background-color: $color;
             &:after{
-                background-color: #FFF;
+                background-color: $hover-color;
             }
             &:before{
-                border-color: #FFF;
+                border-color: $hover-color;
             }
         }
     }
 }
+.line-btn-container{
+    @include line-btn-container();
+}
+.line-btn-container.white{
+    @include line-btn-container(#FFF, $primary-color);
+}
+

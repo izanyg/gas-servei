@@ -23,6 +23,7 @@ include 'helpers.php';
 include 'wc-product.php';
 include 'wc-category.php';
 include 'wc-variation.php';
+include 'wc-distributor-offer.php';
 include 'wc-user.php';
 include 'wc-attribute.php';
 include 'wc-addresses.php';
@@ -144,6 +145,7 @@ if ( defined( 'WP_CLI' ) && WP_CLI ) {
     WP_CLI::add_command( 'import_gs_categories', 'import_gs_categories' );
     WP_CLI::add_command( 'delete_gs_categories', 'delete_gs_categories' );
     WP_CLI::add_command( 'import_gs_products', 'import_gs_products' );
+    WP_CLI::add_command( 'import_gs_distributor_offers', 'import_gs_distributor_offers' );
     WP_CLI::add_command( 'delete_gs_products', 'delete_gs_products' );
     WP_CLI::add_command( 'import_gs_articles', 'import_gs_articles' );
     WP_CLI::add_command( 'import_gs_attributes', 'import_gs_attributes' );

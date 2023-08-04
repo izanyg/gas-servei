@@ -106,6 +106,12 @@ class GasserveiApiFake
 		return json_decode($response, true);
 	}
 
+	public function offers()
+	{
+		$response = $this->get_data('offers.json');
+		return json_decode($response, true);
+	}
+
 	public function categories()
 	{
 		$response = $this->get_data('categories.json');

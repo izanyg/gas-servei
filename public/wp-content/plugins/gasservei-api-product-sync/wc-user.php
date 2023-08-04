@@ -139,6 +139,12 @@ function is_gs_tenant() {
 	return get_user_meta( get_current_user_id(), 'gs_tenant', true );
 }
 
+function is_gs_distributor() {
+	if ($api_client=gs_get_api_client())
+		return $api_client['Grupo']==1;
+	return false;
+}
+
 function get_cif($user=null) {
 	return get_user_meta( $user ? $user->ID : get_current_user_id(), 'cif', true);
 }

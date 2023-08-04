@@ -276,10 +276,10 @@ function woo_variations_table_available_options_btn()
     global $product;
     if (!$product->is_type('variable') || count($product->get_available_variations()) <= 0) {
         return;
-    } 
-    
-    ?>
-    
+    }
+
+?>
+
     <div class="available-options-btn">
         <button scrollto="#variations-table" type="button" class="single_add_to_cart_button button alt"><?php echo apply_filters('woo_variations_table_available_options_btn_text', __('See references and prices', 'woo-variations-table')); ?></button>
     </div>
@@ -309,8 +309,21 @@ function woo_variations_table_print_table()
             }
             $regular_price = $variations[$key]['display_regular_price'];
             $sale_price = $variations[$key]['display_price'];
-            $variations[$key]['regular_price_html'] = ( is_numeric( $regular_price ) ? wc_price( $regular_price ) : $regular_price );
-            $variations[$key]['sale_price_html'] = ( is_numeric( $sale_price ) ? wc_price( $sale_price ) : $sale_price );
+            $variations[$key]['regular_price_html'] = (is_numeric($regular_price) ? wc_price($regular_price) : $regular_price);
+            $variations[$key]['sale_price_html'] = (is_numeric($sale_price) ? wc_price($sale_price) : $sale_price);
+
+            // Distributors offer
+            if (function_exists('is_gs_distributor') && is_gs_distributor()) {
+                $offer = get_post_meta($variation['variation_id'], 'gs_distributor_offer', true);
+                if (!empty($offer) && $offer < $variation['display_price']) {
+                    $quantity = get_post_meta($variation['variation_id'], 'gs_distributor_min_quantity', true);
+                    $variations[$key]['distributor_offer'] = $offer;
+                    $variations[$key]['distributor_offer_html'] = '<span class="discount">' . sprintf(
+                        __("<span class='highlight'>Descuento</span> a partir de %s uds.", 'gasservei'),
+                        $quantity
+                    ) . '</span>';
+                }
+            }
         }
 
         $product_attributes = $product->get_attributes();
@@ -331,7 +344,7 @@ function woo_variations_table_print_table()
                 }
             }
             $correctkey = strtolower(urlencode($correctkey));
-            if(array_key_exists($correctkey, $product_attributes)){
+            if (array_key_exists($correctkey, $product_attributes)) {
                 array_push($attrs, array(
                     "key" => $correctkey,
                     "name" => wc_attribute_label($key),
@@ -374,13 +387,13 @@ function woo_variations_table_print_table()
         wp_localize_script('woo-variations-table-app', 'wooVariationsTableData', $woo_variations_table_data);
         do_action('woo_variations_table_before_table');
     ?>
-        
-        <?php if( !is_user_logged_in() ): ?>
+
+        <?php if (!is_user_logged_in()) : ?>
             <div id="woo-variations-worker">
                 <p><?php echo __('Remember to log-in to view your special conditions', 'gasservei'); ?></p>
                 <img src="<?php echo plugin_dir_url(__FILE__) . 'images/variations-worker.svg'; ?>" alt="svg decoration worker">
             </div>
-        <?php endif;?>
+        <?php endif; ?>
         <div id='variations-table' class="variations-table">
             <?php echo "<div id='woo-variations-table-title'>" . __('References', 'woo-variations-table') . "</div>"; ?>
             <div id="woo-variations-table-component"></div>
@@ -393,12 +406,13 @@ function woo_variations_table_print_table()
     }
 }
 
-function gs_get_tipologias_variations($variations) {
-    foreach($variations as &$variation) {
+function gs_get_tipologias_variations($variations)
+{
+    foreach ($variations as &$variation) {
         $tipologia = get_post_meta($variation['variation_id'], 'gs_tipologia', true);
         $variation['tipologia'] = $tipologia;
     }
-    usort($variations, function($a, $b) {
+    usort($variations, function ($a, $b) {
         return strcmp($a['tipologia'], $b['tipologia']);
     });
     return $variations;

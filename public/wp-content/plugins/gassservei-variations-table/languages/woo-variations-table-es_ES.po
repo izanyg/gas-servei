@@ -58,6 +58,10 @@ msgstr "Precio"
 msgid "Quantity"
 msgstr "Cantidad"
 
+#: woo-variations-table.php:83
+msgid "Offer"
+msgstr "Oferta"
+
 #: woo-variations-table.php:98
 msgid "Woo Variations Table Settings"
 msgstr ""

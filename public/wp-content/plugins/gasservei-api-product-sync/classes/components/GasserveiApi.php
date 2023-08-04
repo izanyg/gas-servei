@@ -117,6 +117,12 @@ class GasserveiApi
 		return json_decode($response, true);
 	}
 
+	public function offers()
+	{
+		$response = $this->get('/api/ofertas');
+		return json_decode($response, true);
+	}
+
 	public function categories()
 	{
 		$response = $this->get('/api/categorias');

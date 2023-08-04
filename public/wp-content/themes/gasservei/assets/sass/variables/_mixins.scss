@@ -64,3 +64,40 @@
         }
     }
 }
+
+@mixin wavesSection(){
+    .container{
+        max-width: 112.5rem;
+        margin: 0px auto;
+        .wp-block-columns{
+            width: 100%;
+            justify-content: space-between;
+        }
+    }
+    @include gradient-background();
+    padding-top: 50px;
+    position: relative;
+    color: #FFF;
+    margin-bottom: 0;
+    &:after{
+        content: "";
+        position: absolute;
+        z-index: 1;
+        left: -50%;
+        right: 0;
+        height: 216px;
+        bottom: -1px;
+        background-image: url('../../img/waves.svg');
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: repeat no-repeat;
+    }
+    h1, h2, h3{
+        color: #FFF;
+    }
+    h2{
+        font-size: 32px;
+        margin-bottom: 30px;
+        max-width: 750px;
+    }
+}

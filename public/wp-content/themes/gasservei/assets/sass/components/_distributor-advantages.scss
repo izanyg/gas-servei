@@ -1,0 +1,33 @@
+.distributor-advantages-block{
+    img{
+        padding: 0 20px;
+        margin-bottom: 10px;
+        aspect-ratio: 0.95;
+        object-fit: contain;
+    }
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 1.2em;
+        position: relative;
+        margin-bottom: 50px;
+        color: rgb(var(--heading-color));
+    }
+    .wp-block-columns{
+        gap: 4em;
+        margin-bottom: 4em;
+        p{
+            text-align: center
+        }
+    }
+    .wp-columns-block-thirds{
+        margin: 0 12%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .distributor-advantages-block{
+        padding: 0 70px;
+    }
+}

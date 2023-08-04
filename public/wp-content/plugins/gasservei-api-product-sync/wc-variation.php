@@ -35,6 +35,7 @@ function import_gs_articles()
         //     break;
     }
     gs_purge_unimported_variations();
+    import_gs_distributor_offers();
     $tfin = microtime(true);
     error_log("Imported $i articles ".number_format($tfin-$tini,2)." seconds");
 }
@@ -92,7 +93,6 @@ function get_gs_arti($ean)
     return new WC_Product_Variation($products[0]->ID);
 }
 
-
 add_action( 'woocommerce_before_single_product_summary' , 'gs_check_price', 5 );
 function gs_check_price() {
     global $product;
@@ -123,7 +123,7 @@ add_filter( 'woocommerce_product_variation_get_price', 'gs_variation_get_price',
 function gs_variation_get_price( $regular_price, $variation ) {
     global $gasserveiapi;
     global $getting_custom_variation_values;
-    if ($getting_custom_variation_values || !is_user_logged_in() || !is_gs_client())
+    if ($getting_custom_variation_values || !is_user_logged_in() || !is_gs_client() || $variation->has_distributor_offer)
         return $regular_price;
 
     $ean = get_post_meta($variation->get_id(), 'gsean')[0];

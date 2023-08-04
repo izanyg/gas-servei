@@ -1,0 +1,76 @@
+.header-become-distributor-section {
+    @include wavesSection();
+    margin-bottom: 50vw;
+	h2,
+	p{
+		color: #FFF;
+		text-align: center;
+	}
+	#header-become-distributor-img {
+		height: 260px;
+		img{ 
+			position: absolute;
+			top: 0;
+			z-index: 2;
+			max-height: 450px;
+			width: auto;
+			object-fit: contain;
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (min-width: 781px){
+	.header-become-distributor-section {
+	    margin-bottom: 100px;
+	}
+}
+
+@media screen and (min-width: 900px){
+	.header-become-distributor-section{
+    	padding: 50px 150px 0 150px;
+		.wp-block-columns {
+			gap: 10em;
+		}
+		#header-become-distributor-img {
+			height: 450px;
+		}
+		img{
+			width: auto;
+		}
+		h2,
+		p{
+			color: #FFF;
+			text-align: left;
+		}		
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.white-button{
+			position: relative;
+			display: inline-block;
+			border: 2px solid white;
+			color: $secondary-color;
+			background-color: white;
+			font-size: 14px;
+			text-transform: uppercase;
+			border-radius: 100px;
+			transition: all 0.3s ease-in-out;
+			padding: 5px 0px;
+			margin: 0px 5px;
+			font-weight: bold;
+			z-index: 10;
+			a{
+					color: inherit !important;
+			}
+			&:hover{
+					opacity: 1;
+					color: white;
+					background-color: transparent;
+					a{
+						opacity: 1;
+					}
+			}
+	}
+}

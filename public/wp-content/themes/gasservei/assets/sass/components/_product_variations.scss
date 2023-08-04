@@ -61,6 +61,14 @@ input.cwg_popup_submit {
                 color: $secondary-color;
             }
         }
+        td {
+            .discount{
+                font-weight: bold;
+            }
+            .highlight{
+                color: $secondary-color;
+            }
+        }
         .quantity{
             form.variable-cart{
                 display: flex;
